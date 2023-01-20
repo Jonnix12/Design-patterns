@@ -19,7 +19,6 @@ public class TileObjectUI : MonoBehaviour
             default:
                 throw new ArgumentOutOfRangeException(nameof(objectType), objectType, null);
         }
-        Resources
     }
 }
 
