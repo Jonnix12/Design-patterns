@@ -1,6 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d509b3c-126f-490b-a921-383144618dce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Algorithms.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Algorithms/VictoryAlgorithm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Algorithms/VictoryAlgorithm.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command/AddObjectToBoradCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command/AddObjectToBoradCommand.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command/Command.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command/Command.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command/CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Command/CommandHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player/IPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player/IPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player/PlayerData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/Player/PlayerData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/PlayerFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/PlayerFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TileData/Tile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TileData/Tile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/Turn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/Turn.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Design-patterns/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design-patterns/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tiles/Tile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TileData/O.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/TileData/O.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TileData/X.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/TileData/X.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/BordManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/BordManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/MainUI/InfoWindowHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/MainUI/InfoWindowHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TileData/TileData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TileData/TileData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TileData/TileDataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TileData/TileDataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TileUI/TileInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TileUI/TileInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TileUI/TileObjectUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TileUI/TileObjectUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TileUI/TileUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TileUI/TileUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/PlayerTurn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/PlayerTurn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/PlayerTurn.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/PlayerTurn.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/Team.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/Team.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/Team.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/Team.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/TurnLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnLogic.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/TurnLogic.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/TurnManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/TurnManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnManagerConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/TurnManagerConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scrips/TurnSystem/TurnManagerConfig.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scrips/TurnSystem(Old)/TurnManagerConfig.cs.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scrips/TileUI/TileObjectUI.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KahfNbBJI2IipAMKBYVVfVqLUd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\jonharel\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\jonharel\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\jonharel\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;D:\Unity Projects\Design-patterns&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Unity Projects\Design-patterns" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;D:\Unity Projects\Design-patterns&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -19,15 +119,80 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="107596">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="107596" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d509b3c-126f-490b-a921-383144618dce" name="Changes" comment="" />
+      <created>1674218704110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674218704110</updated>
+      <workItem from="1674218709589" duration="96000" />
+      <workItem from="1676280375935" duration="19853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scrips/Command/AddObjectToBoradCommand.cs</url>
+          <line>19</line>
+          <properties documentPath="D:\Unity Projects\Design-patterns\Assets\Scrips\Command\AddObjectToBoradCommand.cs" initialLine="19" containingFunctionPresentation="method 'Execute'">
+            <startOffsets>
+              <option value="520" />
+            </startOffsets>
+            <endOffsets>
+              <option value="591" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scrips/TileData/TileDataManager.cs</url>
+          <line>24</line>
+          <properties documentPath="D:\Unity Projects\Design-patterns\Assets\Scrips\TileData\TileDataManager.cs" initialLine="24" containingFunctionPresentation="method 'TrySetTile'">
+            <startOffsets>
+              <option value="521" />
+            </startOffsets>
+            <endOffsets>
+              <option value="522" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

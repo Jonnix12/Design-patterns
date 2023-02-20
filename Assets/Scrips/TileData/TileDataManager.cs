@@ -1,25 +1,38 @@
-using System;
 using UnityEngine;
 
-public class TileDataManager
+namespace DesignPatterns.Tile.Data
 {
-   private TileData[] _tileDatas;
-   
-   public TileDataManager()
-   {
-      _tileDatas = Resources.LoadAll<TileData>("/TileData");
-   }
+    public class TileDataManager
+    {
+        private static TileDataManager _instance;
 
-   public TileData GetTileData(ObjectType objectType)
-   {
-      switch (objectType)
-      {
-         case ObjectType.X:
-            return _tileDatas[0];
-         case ObjectType.O:
-            return _tileDatas[1];
-         default:
-            throw new ArgumentOutOfRangeException(nameof(objectType), objectType, null);
-      }
-   }
+        public static TileDataManager Instance
+        {
+            get { return _instance ??= new TileDataManager(); }
+        }
+
+
+        private int[,] _tileDatas;
+        public int[,] TileDatas => _tileDatas;
+   
+        public TileDataManager()
+        {
+            _tileDatas = new int[3, 3];
+        }
+
+
+        public bool TrySetTile(Vector2 pos, int id)
+        {
+            if (_tileDatas[(int) pos.x, (int) pos.y] != 0)
+                return false;
+            
+            _tileDatas[(int) pos.x, (int) pos.y] = id;
+            return true;
+        }
+
+        public void RestTile(Vector2 pos)
+        {
+            _tileDatas[(int) pos.x, (int) pos.y] = 0;
+        }
+    }
 }

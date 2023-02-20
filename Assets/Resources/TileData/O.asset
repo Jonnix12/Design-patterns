@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: O
   m_EditorClassIdentifier: 
   _sprite: {fileID: 21300000, guid: 43bdf909c319a994185c2f75ae1cf51a, type: 3}
-  _transition: {fileID: 0}
+  _transition: {fileID: 11400000, guid: 46661a3ea4765384590dc2e2aa1ad2ac, type: 2}

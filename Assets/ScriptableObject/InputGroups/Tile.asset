@@ -9,8 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f7555322e81bba4da15a28485f203a3, type: 3}
-  m_Name: X
+  m_Script: {fileID: 11500000, guid: e25c9cd761b50e24f8aa2ecac54ca97d, type: 3}
+  m_Name: Tile
   m_EditorClassIdentifier: 
-  _sprite: {fileID: 21300000, guid: d8db93b32b638f6468533118166a5eda, type: 3}
-  _transition: {fileID: 11400000, guid: 46661a3ea4765384590dc2e2aa1ad2ac, type: 2}

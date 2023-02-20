@@ -1,4 +1,4 @@
-using Scrips.TurnSystem;
+using DesignPatterns.Players;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,10 +9,8 @@ public class InfoWindowHandler : MonoBehaviour
    [SerializeField] private TMP_Text _playerName;
    [SerializeField] private Image _image;
 
-   public void SetTeamView(PlayerTurn playerTurn)
+   public void SetTeamView(Player player)
    {
-      _playerName.text = playerTurn.PlayerName;
-      _teamName.text = playerTurn.PlayerTeam.TeamName;
-      _image.color = playerTurn.PlayerTeam.TeamColor;
+      _playerName.text = player.Name;
    }
 }

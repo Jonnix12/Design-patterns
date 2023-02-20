@@ -1,5 +1,9 @@
 using JonnixTools.Systems.InputSystem;
 
-public class TileInput : TouchableItem
+namespace DesignPatterns.Tile.UI
 {
+    public class TileInput : TouchableItem<TileObjectUI>
+    {
+    }
 }
+

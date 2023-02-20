@@ -1,29 +1,30 @@
-using System;
+using DesignPatterns.Tile.Data;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TileObjectUI : MonoBehaviour
+namespace DesignPatterns.Tile.UI
 {
-    [SerializeField] private Image _image;
-    
-    public void SetObject(ObjectType objectType)
+    public class TileObjectUI : MonoBehaviour
     {
-        switch (objectType)
+        [SerializeField] private TileInput _input;
+
+        [SerializeField] private Image _image;
+        [SerializeField] private Vector2 _pos;
+        
+        public Vector2 Pos => _pos;
+
+        public TileInput Input => _input;
+        
+        public void SetTile(TileData data)
         {
-            case ObjectType.X:
-                //_image.sprite = _x;
-                break;
-            case ObjectType.O:
-                //_image.sprite = _o;
-                break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(objectType), objectType, null);
+            if (data == null)
+            {
+                _image.sprite = null;
+                return;
+            }
+            
+            _image.sprite = data.Sprite;
         }
     }
 }
 
-public enum ObjectType
-{
-    X,
-    O
-};
